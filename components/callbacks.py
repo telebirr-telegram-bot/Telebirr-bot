@@ -66,7 +66,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     elif username not in (OFFTOPIC_USERNAME, ONTOPIC_USERNAME):
         await message.reply_text(
             "Hi. I'm a bot that will announce the rules of the "
-            "python-telegram-bot groups when you type /rules."
+            "Telebirr-telegram-bot groups when you type /rules."
         )
 
 
@@ -115,7 +115,7 @@ async def rules(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         context.application.create_task(try_to_delete(message), update=update)
     else:
         await message.reply_text(
-            "Hmm. You're not in a python-telegram-bot group, "
+            "Hmm. You're not in a Telebirr-telegram-bot group, "
             "and I don't know the rules around here."
         )
 
