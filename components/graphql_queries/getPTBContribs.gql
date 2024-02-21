@@ -1,5 +1,5 @@
 query getPTBContribs {
-    repository(owner: "python-telegram-bot", name: "ptbcontrib") {
+    repository(owner: "Telebirr-telegram-bot", name: "ptbcontrib") {
         object(expression: "main:ptbcontrib") {
             ... on Tree {
                 entries {
