@@ -1,5 +1,5 @@
 query getExamples {
-    repository(owner: "python-telegram-bot", name: "python-telegram-bot") {
+    repository(owner: "Telebirr-telegram-bot", name: "Telebirr-telegram-bot") {
         object(expression: "master:examples") {
             ... on Tree {
                 entries {
