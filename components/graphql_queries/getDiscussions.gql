@@ -1,5 +1,5 @@
 query getDiscussions($cursor: String) {
-    repository(owner: "python-telegram-bot", name: "python-telegram-bot") {
+    repository(owner: "Telebirr-telegram-bot", name: "Telebirr-telegram-bot") {
         discussions(last: 100, before: $cursor) {
             nodes {
                 number
