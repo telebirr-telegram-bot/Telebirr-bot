@@ -1,4 +1,4 @@
-query getThread($number: Int!, $organization: String = "python-telegram-bot", $repository: String = "python-telegram-bot") {
+query getThread($number: Int!, $organization: String = "Telebirr-telegram-bot", $repository: String = "Telebirr-telegram-bot") {
     repository(owner: $organization, name: $repository) {
         issueOrPullRequest(number: $number) {
             ... on Issue {
