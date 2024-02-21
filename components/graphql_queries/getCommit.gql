@@ -1,4 +1,4 @@
-query getCommit($sha: String!, $organization: String = "Telebirr-telegram-bot", $repository: String = "python-telegram-bot") {
+query getCommit($sha: String!, $organization: String = "Telebirr-telegram-bot", $repository: String = "Telebirr-telegram-bot") {
     repository(owner: $organization, name: $repository) {
         object(expression: $sha) {
             ... on Commit {
