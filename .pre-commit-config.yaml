@@ -4,7 +4,7 @@
 
 ci:
     autofix_prs: false
-    autoupdate_schedule: monthly
+    autoupdate_schedule: weekly
 
 repos:
 -   repo: https://github.com/psf/black
@@ -27,7 +27,7 @@ repos:
         additional_dependencies:
           - beautifulsoup4~=4.11.0
           - thefuzz~=0.19.0
-          - python-telegram-bot[job-queue]==20.2
+          - Telebirr-telegram-bot[job-queue]==20.2
           - Sphinx~=5.0.2
           - httpx~=0.23.0
           - gql[aiohttp]~=3.3.0
